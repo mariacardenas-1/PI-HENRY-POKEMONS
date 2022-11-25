@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lato:ital,wght@1,300&family=Luckiest+Guy&display=swap');
+.landing {
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    background-color: rgb(41, 41, 41);
+}
+
+.div1 {
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0 40px 0 60px;
+    color: whitesmoke;
+
+
+}
+
+.title {
+    font-size: 70px;
+    font-family: 'Luckiest Guy', cursive;
+    margin: 20px 20px 80px 20px;
+    color: #ffc712
+}
+
+.description {
+    font-size: 25px;
+    font-family: Lato;
+    font-weight: bold;
+    margin: 20px;
+    color: darkgrey;
+}
+
+.button {
+    border-radius: 30px;
+    border: 2px solid rgb(41, 41, 41);    
+    width: 240px;
+    min-height: 60px;
+    border-color: #6be3ff;
+    background-color: #00b3ff00;
+    color: #ececec;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Concert One';
+    word-spacing: 3px;
+}
+
+.button:hover {
+    background-color: #6be3ff;
+    color: rgb(65, 65, 65);
+    font-size: 25px;
+}
+
+.name {
+    border-radius: 30px;
+    width: 200px;
+    min-height: 50px;
+    background-color: #6be3ff;
+    font-family: Lato;
+    margin: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #292929;
+    font-size: 21px;
+    font-weight: bolder;
+    font-family: 'Concert One';
+}
+
+.link {
+    text-decoration: none;
+    color: #292929;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lato:ital,wght@1,300&family=Luckiest+Guy&display=swap');
+
+.pokemons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: #414141;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #414141;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px
+}
+
+.createpokehome {
+     text-decoration: none;
+     border-radius: 8px;
+     color: #414141;
+     background-color: #6be3ff;
+     font-family: 'Concert One';
+     margin: 0 10px;
+     font-size: 20px;
+     text-align: center;
+     padding: 8px 20px;
+ 
+}
+
+.rerender {
+    text-decoration: none;
+    border-radius: 8px;
+    color: #414141;
+    background-color: #6be3ff;
+    font-family: 'Concert One';
+    margin: 0 10px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+
+.buttonshome {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+
+  

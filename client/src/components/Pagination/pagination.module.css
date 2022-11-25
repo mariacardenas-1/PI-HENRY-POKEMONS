@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lato:ital,wght@1,300&family=Luckiest+Guy&display=swap');
+
+.paginate{
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #ffc712;
+    border-color: #ffc712;
+    margin: 8px;
+    border-radius: 3px;
+}

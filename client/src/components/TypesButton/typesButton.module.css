@@ -1,0 +1,30 @@
+.inactive{
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Concert One';
+    font-size: 16px;
+    padding: 0 20px;
+    border: 1px solid #ffc712;
+    background-color: #414141;
+    color: white;
+}
+
+.inactive:hover {
+    border: 2px solid #ffc712;
+}
+
+.active {
+    background-color: #ffc712;
+    color: #414141;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Concert One';
+    font-size: 16px;
+    padding: 0 20px;
+}

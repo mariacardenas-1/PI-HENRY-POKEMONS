@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lato:ital,wght@1,300&family=Luckiest+Guy&display=swap');
+
+.ordenar {
+    color: #ffffff;
+    background-color: #414141;
+    border: none;
+    border-radius: 15px;
+    margin: 0 30px;
+    height: 40px;
+    width: 150px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.ordenar:focus {
+    outline: none;
+}
