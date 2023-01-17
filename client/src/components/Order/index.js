@@ -13,7 +13,7 @@ const Order = () => {
     const dispatch = useDispatch()
 
     const handleSelect = (option)=>{
-        if(option === 'Ordenar') dispatch(withoutOrder())
+        if(option === 'Organize') dispatch(withoutOrder())
         if(option === 'A-Z') dispatch(orderByAz())
         if(option === 'Z-A') dispatch(orderByZa())
         if(option === 'mayor') dispatch(orderByMajorAttack())

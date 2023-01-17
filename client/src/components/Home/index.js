@@ -53,7 +53,7 @@ const Home = () => {
 
     return (
         <div className={styles.pokemons}>
-            <SearchBar />
+            <SearchBar setCurrentPage={setCurrentPage}/>
             {!loader && (
                 <div className={styles.cards}>
                     { filterPokemons && filterPokemons.map(({image, name, types, id}) => (
